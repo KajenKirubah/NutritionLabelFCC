@@ -1,0 +1,6 @@
+@import './base/_mixins.css';
+@import './modules/_daily-value.css';
+@import './base/_global.css';
+
+@import './modules/_label.css';
+@import './modules/_calories-info.css';

@@ -1,0 +1,72 @@
+.label {
+
+    border: 2px solid black;
+    width: 300px;
+    margin: 10px auto;
+    padding: 0 3.5px; 
+
+
+    &__title {
+        color: rosybrown;
+        text-align: center;
+        margin: -2px 0;
+        letter-spacing: 0.15px;
+
+        @mixin atSmall {
+            font-weight: 800;
+            margin: -4px 0;
+        }
+    }
+
+    &--bold {
+        font-weight: 800;
+    }
+
+    &__divider {
+        border-bottom: 1px solid #888989;
+        margin: 2px 0;
+    }
+
+    p {
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &--large {
+        height: 6px;
+
+        @mixin atSmall {
+            height: 10px;
+        }
+    }
+
+    &--large, &--medium {
+        background-color: black;
+        border: 0;
+    }
+
+    &--medium {
+        height: 5px;
+    }
+
+    &--small-text {
+        font-size: 0.8rem;
+
+        @mixin atSmall {
+            font-size: 0.9rem;
+        }
+    }
+
+    &--right {
+        justify-content: flex-end !important;
+    }
+
+    @mixin atSmall {
+        width: 540px;
+        margin: 20px auto;
+        padding: 0 7px; 
+    }
+
+    
+}
