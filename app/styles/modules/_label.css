@@ -7,7 +7,7 @@
 
 
     &__title {
-        color: rosybrown;
+        color: black;
         text-align: center;
         margin: -2px 0;
         letter-spacing: 0.15px;
@@ -63,7 +63,7 @@
     }
 
     @mixin atSmall {
-        width: 540px;
+        width: 370px;
         margin: 20px auto;
         padding: 0 7px; 
     }
